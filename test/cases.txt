@@ -1,0 +1,24 @@
+  host: 'sql3.freemysqlhosting.net',
+  user: 'sql3378241',
+  database: 'sql3378241',
+  password: 'EhKxlhgz2D'
+
+y_kenny@hotmail.com
+Yuman
+shdfkshdka
+2020-11-08 00:00:00
+2020-11-23 00:00:00
+{favoriteColor: "Blue"}
+
+
+curl http://localhost:3000/api/hello
+
+curl http://localhost:3000/leave-email?e=y_kenny@hotmail.com
+
+curl -d '{"email": "y_kenny@hotmail.com", "username":"Yuman", "password": "shdfkshdka", "password_repeat": "shdfkshdka"}' -H "Content-Type: application/json" http://localhost:3000/api/sign-up
+
+curl -d '{"id":"y_kenny@hotmail.com", "password": "shdfkshdka"}' -H "Content-Type: application/json" http://localhost:3000/api/login
+
+curl -H "Content-Type: application/json"  -H "Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ill1bWFuIiwidXNlcklkIjoieV9rZW5ueUBob3RtYWlsLmNvbSIsImlhdCI6MTYwNjQzNTc0MCwiZXhwIjoxNjA3MDQwNTQwfQ.tV5E_GYckDO5FkkfnR28wE-CYdJzGgXWDfWqKifE3QQ" http://localhost:3000/api/secret-route
+
+
